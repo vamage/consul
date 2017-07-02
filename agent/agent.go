@@ -903,7 +903,6 @@ func (a *Agent) resolveTmplAddrs() error {
 // makeServer creates a new consul server.
 func (a *Agent) makeServer() (*consul.Server, error) {
 	config, err := a.consulConfig()
-
 	if err != nil {
 		return nil, err
 	}
