@@ -46,6 +46,7 @@ const (
 	AreaRequestType
 )
 
+
 const (
 	// IgnoreUnknownTypeFlag is set along with a MessageType
 	// to indicate that the message type can be safely ignored
